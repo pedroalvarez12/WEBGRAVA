@@ -48,6 +48,7 @@
     font-size: 26px;
 }
 
+.pdp-dark .text-dark{
     color: #fff !important;
 }
 .pdp-dark .text-dark.badge{
@@ -62,10 +63,6 @@
 
 .pdp-dark .border-dark{
     border-color: #fff !important;
-}
-
-.pdp-dark .border-dark.badge{
-    border-color: #000 !important;
 }
 
 .pdp-dark .text-muted{
