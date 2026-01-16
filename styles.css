@@ -1,6 +1,4 @@
-/* =====================
-   VARIABLES
-===================== */
+
 :root {
   --bg-main: #0f0f0f;
   --bg-soft: #151515;
@@ -9,9 +7,7 @@
   --accent-red: #9f1d1f;
 }
 
-/* =====================
-   BASE
-===================== */
+
 body {
   font-family: 'Inter', sans-serif;
   background: var(--bg-main);
@@ -114,9 +110,6 @@ a {
   z-index: 3;
 }
 
-/* =====================
-   TEXT
-===================== */
 .card-title {
   font-size: 0.75rem;
   letter-spacing: 0.2em;
@@ -141,18 +134,14 @@ a {
   transition: transform 0.4s ease, color 0.4s ease;
 }
 
-/* =====================
-   BADGE
-===================== */
+
 .product-card .badge {
   background: var(--accent-red) !important;
   font-size: 0.6rem;
   letter-spacing: 0.15em;
 }
 
-/* =====================
-   HOVERS 🔥
-===================== */
+
 .product-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 25px 50px rgba(0,0,0,0.45);
