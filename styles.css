@@ -11,6 +11,15 @@
   font-style: normal;
 }
 
+
+:root {
+  --bg-main: #0f0f0f;
+  --bg-soft: #151515;
+  --text-main: #e5e5e5;
+  --text-muted: #9a9a9a;
+  --accent-red: #9f1d1f;
+}
+
 .inicio-bg {
     display: flex;
     justify-content: center;
