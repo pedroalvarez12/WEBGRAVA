@@ -1,0 +1,15 @@
+
+/* Custom Accordion Styles */
+.accordion-custom .accordion-header {
+  cursor: pointer;
+}
+
+.accordion-custom .bi-plus-lg, 
+.accordion-custom .bi-dash-lg {
+  transition: transform 0.3s ease;
+}
+
+/* Icons sizing */
+.accordion-custom i {
+  font-size: 1.2rem;
+}
