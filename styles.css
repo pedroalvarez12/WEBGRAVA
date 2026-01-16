@@ -74,6 +74,10 @@
     border-color: #fff !important;
 }
 
+.pdp-dark .border-dark.badge{
+    border-color: #000 !important;
+}
+
 .pdp-dark .text-muted{
     color: #cccccc !important;
 }
