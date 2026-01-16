@@ -135,6 +135,10 @@
   display: none; /* Chrome, Safari, Opera */
 }
 
+.product-card {
+  text-decoration: none;
+}
+
 .product-card-slider {
   min-width: 280px; /* Minimum width for mobile */
   flex: 0 0 auto;
