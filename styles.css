@@ -1,3 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Amador Gothic C";
+  src: url("fonts/Amador GothicC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.inicio-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("media/img/fondo.png") center center / cover no-repeat fixed;
+    overflow: hidden;
+}
+
+.pdp-dark{
+    background-color: #000;
+    color: #fff;
+}
+
+.pdp-dark .bg-white{
+    background-color: #000 !important;
+}
+
+.pdp-dark .navbar{
+    border-bottom: 1px solid #fff;
+}
+
+.pdp-dark .navbar-brand{
+    font-family: "Amador Gothic C", sans-serif;
+    color: #8f0000 !important;
+    text-transform: none;
+    font-size: 36px;
+    line-height: 1;
+}
+
+.pdp-dark .navbar-nav .nav-link{
+    font-family: "Amador Gothic C", sans-serif;
+    color: #8f0000 !important;
+    text-transform: none;
+    font-size: 26px;
+}
+
+.pdp-dark .text-dark{
+    color: #fff !important;
+}
+
+.pdp-dark .card,
+.pdp-dark .accordion-item{
+    background-color: #000;
+    color: #fff;
+}
+
+.pdp-dark .border-dark{
+    border-color: #fff !important;
+}
+
+.pdp-dark .text-muted{
+    color: #cccccc !important;
+}
+
+.pdp-dark h2{
+    font-family: "Amador Gothic C", sans-serif;
+    font-size: 3rem;
+}
+
+.pdp-dark .recommended-title{
+    font-family: "Amador Gothic C", sans-serif;
+    color: #8f0000;
+    font-size: 3rem;
+}
+
+.pdp-dark .btn-dark{
+    background-color: #8f0000;
+    border-color: #8f0000;
+    color: #fff;
+}
+
+.pdp-dark .btn-outline-dark{
+    border-color: #8f0000;
+    color: #8f0000;
+}
+
 
 /* Custom Accordion Styles */
 .accordion-custom .accordion-header {
@@ -65,4 +155,72 @@
     width: 25%; /* 4 items exactly with no gap */
     min-width: 0; /* Reset min-width to allow exact fit */
   }
+}
+
+model-viewer{
+    width: 600px;
+    height: 600px;
+}
+
+.top-buttons{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 16px;
+    z-index: 10;
+}
+
+.nav-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    border-radius: 999px;
+    border: none;
+    color: #8f0000;
+    font-family: "Amador Gothic C", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(255, 88, 88, 0.6);
+}
+
+.bottom-left-text{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #8f0000;
+    font-family: "Amador Gothic C", sans-serif;
+    font-size: 40px;
+    z-index: 10;
+}
+
+.bottom-left-text2{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #8f0000;
+    font-family: "Amador Gothic C", sans-serif;
+    font-size: 40px;
+    z-index: 10;
+}
+
+#particles-js{
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+footer input::placeholder {
+    color: #8f0000 !important;
+    opacity: 0.7; /* Firefox */
 }
