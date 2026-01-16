@@ -13,3 +13,56 @@
 .accordion-custom i {
   font-size: 1.2rem;
 }
+
+/* Horizontal Scroll Slider */
+.horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  /* Hide scrollbar for standard browsers */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.horizontal-scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.product-card-slider {
+  min-width: 280px; /* Minimum width for mobile */
+  flex: 0 0 auto;
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  .product-card-slider {
+    min-width: 300px; /* Wider cards on larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .product-card-slider {
+    width: calc((100% - 3rem) / 4); /* 4 items completos considerando el gap */
+  }
+}
+
+/* Shop the Look Slider Items */
+.shop-look-item {
+  min-width: 280px;
+  flex: 0 0 auto;
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  .shop-look-item {
+    min-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .shop-look-item {
+    width: 25%; /* 4 items exactly with no gap */
+    min-width: 0; /* Reset min-width to allow exact fit */
+  }
+}
