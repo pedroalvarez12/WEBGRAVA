@@ -1,0 +1,75 @@
+/* =====================
+   RESET & BASE
+===================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  padding-top: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+.navbar {
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-brand {
+  letter-spacing: 0.15em;
+  font-size: 0.9rem;
+}
+
+.nav-link {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 1px;
+  background: #000;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* =====================
+   HERO
+===================== */
+.hero-media {
+  min-height: 40vh;
+  margin-bottom: 4rem;
+}
+
+.hero-media h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  letter-spacing: 0.2em;
+}
+
+.hero-media p {
+  max-width: 520px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* =====================
+   PRODUCT GRID
+========
