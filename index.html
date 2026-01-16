@@ -15,38 +15,37 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="pdp-dark" style="margin-top: 60px;">
 
       <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
-    <div class="container">
-      <a class="navbar-brand text-uppercase fw-semibold" href="#">
-        Grava
-      </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-semibold" href="paginainicio.html">
+                <img src="media/img/Mesa de trabajo 1.png" alt="Grava logo" style="height: 40px;">
+            </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto gap-3">
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#">Shop</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#">Producto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#">Lookbook</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#">Club</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Producto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://9575561.cargo.site">Archivo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Club</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
  
 
   <div class="container py-5">
@@ -212,6 +211,70 @@
     </section>
 
   </div>
+    <!-- FOOTER -->
+    <footer class="bg-black text-white py-5 border-top border-secondary">
+        <div class="container-fluid px-5">
+            <div class="row gy-4">
+                <!-- Logo & Social -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="mb-4">
+                        <img src="media/img/Mesa de trabajo 1.png" alt="GRAVA" class="img-fluid" style="max-height: 30px;">
+                    </div>
+                    <div class="d-flex gap-3 fs-5">
+                        <a href="#" class="text-white text-decoration-none"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white text-decoration-none"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="text-white text-decoration-none"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
 
+                <!-- Support -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="fw-bold mb-3 text-uppercase small">Support</h6>
+                    <ul class="list-unstyled small text-secondary mb-0 d-flex flex-column gap-2">
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">FAQS</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">SHIPPING POLICY</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">RETURN & EXCHANGE POLICY</a></li>
+                    </ul>
+                </div>
+
+                <!-- Brand -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="fw-bold mb-3 text-uppercase small">Brand</h6>
+                    <ul class="list-unstyled small text-secondary mb-0 d-flex flex-column gap-2">
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">STORES</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">CAREERS</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="fw-bold mb-3 text-uppercase small">Legal</h6>
+                    <ul class="list-unstyled small text-secondary mb-0 d-flex flex-column gap-2">
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">PRIVACY POLICY</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">COOKIE POLICY</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">TERMS OF SERVICE</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary hover-white">LEGAL NOTICE</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3 text-uppercase small">GET 10% OFF ON YOUR FIRST ORDER</h6>
+                    <form>
+                        <div class="mb-2">
+                            <input type="email" class="form-control bg-transparent border-white text-white rounded-0 shadow-none" placeholder="E-mail">
+                        </div>
+                        <button type="submit" class="btn w-100 rounded-0 fw-bold mb-3" style="background-color: #8f0000; color: white; border: none;">GET YOUR DISCOUNT</button>
+                        <div class="form-check">
+                            <input class="form-check-input bg-transparent border-white rounded-0 shadow-none" type="checkbox" id="newsletterCheck">
+                            <label class="form-check-label text-secondary" style="font-size: 0.65rem; line-height: 1.2;" for="newsletterCheck">
+                                I have read and accept Grava's Terms and Conditions and understand the information about the use of my personal data as explained in the Privacy Policy.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
